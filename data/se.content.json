@@ -1,0 +1,217 @@
+{
+    "_COMMENT": "This file contains all data that exists on the website. Change only if you know what you are doing.",
+    "config": {
+        "lang": "sv"
+    },
+    "data": {
+        "banner": {
+            "title": "Den ==magiska== världen av växter och örter.",
+            "subtitle": "Ge moder natur en chans med färre ~~störda produkter~~ och mer __natur__!",
+            "img": {
+                "src": "https://images.unsplash.com/photo-1543459176-4426b37223ba?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                "alt": "Naturlig bakgrundsbild"
+            },
+            "button": {
+                "name": "Se hur",
+                "to": ""
+            }
+        },
+        "about_short": {
+            "title": "Välkommen till min värld!",
+            "content": [
+                "**Är du redo att dyka in i äventyret med örter och natur?** Här väcks min passion för natur och örtmedicin till liv, och jag ser fram emot att ta med dig på denna upptäcktsresa!",
+                "// Annika Wessels, grundare av Botanics & You."
+            ]
+        },
+        "topics": {
+            "title": "Upptäck Mer"
+        },
+        "featured": {
+            "title": "Utvalda Artiklar",
+            "button": {
+                "name": "Läs mer"
+            }
+        },
+        "newsletter_signup": {
+            "title": "Anmäl dig till vårt nyhetsbrev",
+            "content": "Få gratis recept, tips och uppdateringar om örter!",
+            "form": {
+                "email": "Ange din e-postadress",
+                "submit": "Prenumerera"
+            },
+            "img": {
+                "src": "https://cdn.pixabay.com/photo/2020/12/17/14/07/leaves-5839550_960_720.jpg",
+                "alt": "Bara en bakgrund"
+            }
+        },
+        "workshop_teaser": {
+            "title": "Workshops & Kurser",
+            "content": "Nya workshops om örter och naturlig vård startar snart!",
+            "button": {
+                "name": "Mer information",
+                "to": "/workshops"
+            }
+        },
+        "terms": {
+            "title": "Användarvillkor",
+            "subtitle": "Dessa villkor styr din användning av våra tjänster. Läs dem noggrant innan du använder vår webbplats.",
+            "content": [
+                {
+                    "title": "1. Accepterande av Villkor",
+                    "content": "Genom att få tillgång till eller använda Botanics & You godkänner du att vara juridiskt bunden av dessa Användarvillkor och vår Integritetspolicy. Om du inte accepterar dessa villkor får du inte använda vår webbplats eller tjänster."
+                },
+                {
+                    "title": "2. Behörighet",
+                    "content": "Våra tjänster är avsedda för personer som är 18 år eller äldre. Genom att använda plattformen bekräftar du att du är minst 18 år gammal. Om du är under 18 får du endast använda tjänsterna med hjälp av en förälder eller vårdnadshavare."
+                },
+                {
+                    "title": "3. Tjänster som Erbjuds",
+                    "content": "Vi tillhandahåller digitalt innehåll inriktat på örtbaserat välbefinnande, inklusive ett recept-wiki, artiklar och online/offline-workshops. Allt material är endast avsett för utbildningsändamål och är inte avsett att diagnostisera, behandla, bota eller förebygga sjukdomar. Du uppmanas att konsultera en vårdpersonal innan du tillämpar någon information."
+                },
+                {
+                    "title": "4. Användarkonton",
+                    "content": "Det kan krävas att du skapar ett konto för att få tillgång till vissa funktioner. Du är ansvarig för att upprätthålla konfidentialiteten för dina kontouppgifter och samtycker till att omedelbart meddela oss om obehörig användning."
+                },
+                {
+                    "title": "5. Workshopregistrering och Betalning",
+                    "content": "Workshops kräver förhandsregistrering och betalning via stödjade tredjepartsleverantörer. Genom att registrera dig godkänner du de specifika villkor som anges vid bokningstillfället. Återbetalningar ges endast om avbokning sker minst 7 dagar före evenemanget om inget annat anges."
+                },
+                {
+                    "title": "6. Innehav av Innehåll och Immateriella Rättigheter",
+                    "content": "Allt innehåll, inklusive text, grafik, videor och workshopmaterial, är egendom av Botanics & You eller dess licensgivare. Du får inte kopiera, distribuera eller använda vårt innehåll utan föregående skriftligt tillstånd. Användargenererat innehåll förblir din egendom men ger oss en licens att visa det på plattformen."
+                },
+                {
+                    "title": "7. Acceptabel Användning",
+                    "content": "Du godkänner att inte använda tjänsten på ett olagligt, vilseledande, missbrukande, trakasserande, ärekränkande eller på annat sätt oacceptabelt sätt. Vi förbehåller oss rätten att stänga av eller avsluta åtkomst om ditt beteende bedöms vara olämpligt eller bryter mot dessa villkor."
+                },
+                {
+                    "title": "8. Ansvarsfriskrivningar",
+                    "content": "Alla tjänster tillhandahålls 'i befintligt skick' och 'beroende på tillgång'. Även om vi strävar efter noggrannhet, garanterar vi inte att informationen är fullständig eller felfri. Örtmedicinska behandlingar kan påverka individer på olika sätt, och tillämpning sker på egen risk."
+                },
+                {
+                    "title": "9. Begränsning av Ansvar",
+                    "content": "I den mån lagen tillåter, ska Botanics & You inte vara ansvariga för några indirekta, tillfälliga eller följdskador som uppstår vid användning av våra tjänster. I inget fall ska vårt totala ansvar överstiga det belopp du betalat, om något, för att få tillgång till vårt innehåll eller våra tjänster."
+                },
+                {
+                    "title": "10. Avslutning",
+                    "content": "Vi förbehåller oss rätten att när som helst avsluta eller stänga av din åtkomst till plattformen, med eller utan förvarning, av vilket skäl som helst, inklusive brott mot dessa villkor."
+                },
+                {
+                    "title": "11. Ändringar i Villkoren",
+                    "content": "Vi kan uppdatera dessa Användarvillkor periodiskt. Eventuella ändringar kommer att kommuniceras via denna sida eller via e-post om tillämpligt. Fortsatt användning av tjänsten innebär att du accepterar de nya villkoren."
+                },
+                {
+                    "title": "12. Tillämplig Lag och Jurisdiktion",
+                    "content": "Dessa villkor styrs av lagarna i Sverige och Europeiska Unionen. Eventuella tvister kommer att lösas i svenska domstolar om inget annat krävs enligt lokal konsumentlagstiftning."
+                }
+            ],
+            "updated": "Senast uppdaterad: 1 maj 2025"
+        },
+        "privacy": {
+            "title": "Integritetspolicy",
+            "subtitle": "Vi värdesätter din integritet. Denna policy förklarar hur vi samlar in, behandlar och skyddar dina uppgifter i enlighet med GDPR och svensk lag.",
+            "content": [
+                {
+                    "title": "1. Dataansvarig",
+                    "content": "Botanics & You är den personuppgiftsansvariga för de personuppgifter du tillhandahåller via vår webbplats och tjänster. Du kan kontakta oss på privacy@botanicsandyou.com."
+                },
+                {
+                    "title": "2. Personuppgifter Vi Samlar In",
+                    "content": "Vi samlar in följande typer av personuppgifter: namn, e-postadress, plats (valfritt), IP-adress, workshophistorik och kommunikationspreferenser. Om du frivilligt tillhandahåller ytterligare hälsoinformation i samband med en workshop kan detta behandlas som känsliga uppgifter enligt GDPR."
+                },
+                {
+                    "title": "3. Syfte med Behandlingen",
+                    "content": "Vi behandlar dina uppgifter för att leverera våra tjänster, hantera konton, skicka beställningsbekräftelser, personalisera din upplevelse och uppfylla lagstadgade skyldigheter. Vi använder inte dina uppgifter för automatiserat beslutsfattande eller profilering."
+                },
+                {
+                    "title": "4. Rättslig Grund för Behandling",
+                    "content": "Våra rättsliga grunder enligt GDPR inkluderar: ditt samtycke, fullgörande av ett avtal (t.ex. workshopregistrering), rättsliga skyldigheter (t.ex. fakturering) och berättigade intressen (t.ex. plattformsförbättring)."
+                },
+                {
+                    "title": "5. Cookies och Spårning",
+                    "content": "Vi använder cookies och liknande teknologier för att förbättra din användarupplevelse, spåra trafik och komma ihåg preferenser. En cookie-samtyckesbanner visas vid första besöket, och du kan uppdatera dina preferenser när som helst."
+                },
+                {
+                    "title": "6. Delning av Din Information",
+                    "content": "Vi säljer inte dina personuppgifter. Vi kan dela den med GDPR-kompatibla tjänsteleverantörer för uppgifter som betalningshantering, e-postleverans, analys eller hosting. Vi säkerställer att alla partners undertecknar datahanteringsavtal."
+                },
+                {
+                    "title": "7. Internationella Överföringar",
+                    "content": "Om data överförs utanför EU/EES säkerställer vi att lämpliga skyddsåtgärder som Standardavtalsklausuler eller adekvansbeslut finns på plats."
+                },
+                {
+                    "title": "8. Bevarande av Uppgifter",
+                    "content": "Vi behåller personuppgifter endast så länge som det är nödvändigt för de syften som beskrivs i denna policy. Detta inkluderar bokföringsregler, skatteregler och kundtjänsthistorik, vanligtvis upp till 7 år."
+                },
+                {
+                    "title": "9. Dina Rättigheter",
+                    "content": "Enligt GDPR har du rätt att få tillgång till, rätta, ta bort eller begränsa dina uppgifter. Du kan också motsätta dig behandling, begära dataportabilitet och återkalla samtycke när som helst. Du kan kontakta den svenska Integritetsskyddsmyndigheten (IMY) för att lämna in klagomål."
+                },
+                {
+                    "title": "10. Uppgiftssäkerhet",
+                    "content": "Vi vidtar lämpliga tekniska och organisatoriska åtgärder för att skydda dina uppgifter, inklusive kryptering, åtkomstkontroller och rutinmässiga revisioner. Inget överföringssätt via internet är dock 100 % säkert."
+                },
+                {
+                    "title": "11. Barns Integritet",
+                    "content": "Våra tjänster är inte riktade till individer under 13 år. Vi samlar inte medvetet in personuppgifter från barn utan förälders samtycke."
+                },
+                {
+                    "title": "12. Uppdateringar av Policyn",
+                    "content": "Vi kan ändra denna Integritetspolicy när som helst. Den senaste versionen kommer alltid att vara tillgänglig på denna sida, och större ändringar kommer att kommuniceras via e-post om lämpligt."
+                },
+                {
+                    "title": "13. Kontaktinformation",
+                    "content": "Om du har frågor om denna policy eller dina uppgifter, kontakta oss på privacy@botanicsandyou.com eller skriv till vårt registrerade kontor i Sverige."
+                }
+            ],
+            "updated": "Senast uppdaterad: 1 maj 2025"
+        },
+        "encyclopedia": {
+            "usedParts": "Använda delar",
+            "origin": "Ursprung",
+            "growth": "Tillväxt",
+            "usedParts_ext": "Distribution & Ursprung",
+            "origin_ext": "Tillväxtbeteende & Livslängd",
+            "growth_ext": "Använda delar & Skördetid",
+            "keyConstituents": "Nyckelkomponenter",
+            "applications": "Användningar",
+            "usage": "Användningsmetoder",
+            "contraindications": "Kontraindikationer",
+            "anecdote": "Anekdot från folkmedicin",
+            "recommendations": "Rekommendation",
+            "relatedPlants": "Relaterade",
+
+            "recipes": "Recept",
+            "dryness": "Torrhet",
+            "suitableForSkinTypes": "Lämplig för hudtyper",
+            "storageAndShelfLife": "Förvaring och hållbarhet",
+            "fattyAcidProfile": "Fettsyraprofil",
+            "skinBenefits": "Hudfördelar",
+            "ecologicalFootprint": "Ekologiskt fotavtryck",
+            "safety": "Säkerhet",
+            "oilCombinations": "Oljecombinationer",
+            "related": "Relaterade",
+
+            "character": "Karaktär",
+            "constituents": "Beståndsdelar",
+            "properties": "Egenskaper",
+            "healthBenefits": "Hälsovinster",
+            "dosage": "Dosering",
+            "sustainability": "Hållbarhet",
+
+            "titles": {
+                "oils": "Eteriska oljor",
+                "plants": "Växter",
+                "basic_oils": "Basoljor"
+            },
+            "sorting": {
+                "asc": "Sortering: A-Ö",
+                "desc": "Sortering: Ö-A"
+            },
+            "premium": "Premium",
+            "free": "Gratis",
+            "search": "Sök efter namn eller latinskt namn...",
+            "no_results": "Tyvärr kunde vi inte hitta några matchande artiklar."
+        }
+    }
+}

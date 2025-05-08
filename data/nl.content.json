@@ -1,0 +1,216 @@
+{
+    "_COMMENT": "This file contains all data that exists on the website. Change only if you know what you are doing.",
+    "config": {
+        "lang": "nl"
+    },
+    "data": {
+        "banner": {
+            "title": "De ==magie== van planten en kruiden.",
+            "subtitle": "Geef moeder natuur een kans met minder ~~verstoorde producten~~ maar __natuur__!",
+            "img": {
+                "src": "https://images.unsplash.com/photo-1543459176-4426b37223ba?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                "alt": "Natuurlijke achtergrondafbeelding"
+            },
+            "button": {
+                "name": "Bekijk hoe",
+                "to": ""
+            }
+        },
+        "about_short": {
+            "title": "Welkom in mijn wereld!",
+            "content": [
+                "**Ben je klaar om je in het avontuur van kruiden en natuur te storten?** Hier komt mijn passie voor de natuur en kruidenkunde tot leven, en ik kan niet wachten om jou mee te nemen op deze ontdekkingsreis!",
+                "// Annika Wessels, oprichter van Botanics & You."
+            ]
+        },
+        "topics": {
+            "title": "Ontdek Meer"
+        },
+        "featured": {
+            "title": "Uitgelichte Artikelen",
+            "button": {
+                "name": "Lees meer"
+            }
+        },
+        "newsletter_signup": {
+            "title": "Schrijf je in voor onze nieuwsbrief",
+            "content": "Ontvang gratis recepten, tips en updates over kruiden!",
+            "form": {
+                "email": "Voer je e-mailadres in",
+                "submit": "Inschrijven"
+            },
+            "img": {
+                "src": "https://cdn.pixabay.com/photo/2020/12/17/14/07/leaves-5839550_960_720.jpg",
+                "alt": "Gewoon een achtergrond"
+            }
+        },
+        "workshop_teaser": {
+            "title": "Workshops & Cursussen",
+            "content": "Binnenkort starten nieuwe workshops over kruiden en natuurlijke verzorging!",
+            "button": {
+                "name": "Meer informatie",
+                "to": "/workshops"
+            }
+        },
+        "terms": {
+            "title": "Gebruiksvoorwaarden",
+            "subtitle": "Deze voorwaarden regelen het gebruik van onze diensten. Lees ze zorgvuldig door voordat u onze website gebruikt.",
+            "content": [
+                {
+                    "title": "1. Aanvaarding van de voorwaarden",
+                    "content": "Door toegang te krijgen tot of gebruik te maken van Botanics & You, stemt u ermee in om wettelijk gebonden te zijn aan deze Gebruiksvoorwaarden en ons Privacybeleid. Als u het niet eens bent met deze voorwaarden, mag u onze website of diensten niet gebruiken."
+                },
+                {
+                    "title": "2. Geschiktheid",
+                    "content": "Onze diensten zijn bedoeld voor personen van 18 jaar of ouder. Door het gebruik van het platform bevestigt u dat u minstens 18 jaar oud bent. Als u jonger bent dan 18 jaar, mag u de diensten alleen gebruiken met de betrokkenheid van een ouder of voogd."
+                },
+                {
+                    "title": "3. Aangeboden Diensten",
+                    "content": "Wij bieden digitale inhoud die gericht is op kruidenwelzijn, waaronder een receptenwiki, artikelen en online/offline workshops. Alle materialen zijn uitsluitend voor educatieve doeleinden en zijn niet bedoeld om ziekten te diagnosticeren, behandelen, genezen of te voorkomen. U wordt geadviseerd om een zorgverlener te raadplegen voordat u enige informatie toepast."
+                },
+                {
+                    "title": "4. Gebruikersaccounts",
+                    "content": "Het kan nodig zijn om een account aan te maken om toegang te krijgen tot bepaalde functies. U bent verantwoordelijk voor het vertrouwelijk houden van uw accountgegevens en stemt ermee in ons onmiddellijk op de hoogte te stellen van ongeautoriseerd gebruik."
+                },
+                {
+                    "title": "5. Registratie en Betaling voor Workshops",
+                    "content": "Workshops vereisen een voorafgaande registratie en betaling via ondersteunde derde partijen. Door u te registreren, stemt u in met de specifieke voorwaarden die op het moment van reserveren worden vermeld. Terugbetalingen worden alleen verleend als annuleringen ten minste 7 dagen voor het evenement worden gedaan, tenzij anders vermeld."
+                },
+                {
+                    "title": "6. Eigendom van Inhoud en Intellectuele Eigendom",
+                    "content": "Alle inhoud, inclusief tekst, afbeeldingen, video's en workshopmateriaal, is eigendom van Botanics & You of haar licentiegevers. U mag onze inhoud niet kopiëren, distribueren of gebruiken zonder voorafgaande schriftelijke toestemming. Door gebruikers ingediende inhoud blijft uw eigendom, maar verleent u ons een licentie om deze op het platform weer te geven."
+                },
+                {
+                    "title": "7. Beleidsregels voor Acceptabel Gebruik",
+                    "content": "U stemt ermee in om de dienst niet op een manier te gebruiken die onwettig, misleidend, beledigend, intimiderend, lasterlijk of anderszins onaanvaardbaar is. Wij behouden ons het recht voor om toegang op te schorten of te beëindigen als uw gedrag als ongepast wordt beoordeeld of in strijd is met deze voorwaarden."
+                },
+                {
+                    "title": "8. Afwijzingen",
+                    "content": "Alle diensten worden 'zoals ze zijn' en 'zoals beschikbaar' verstrekt. Hoewel wij streven naar nauwkeurigheid, garanderen we niet dat de informatie compleet of foutloos is. Kruidenpraktijken kunnen individuen op verschillende manieren beïnvloeden, en elke toepassing is op eigen risico."
+                },
+                {
+                    "title": "9. Beperking van Aansprakelijkheid",
+                    "content": "Voor zover wettelijk toegestaan, is Botanics & You niet aansprakelijk voor enige indirecte, incidentele of gevolgschade die voortvloeit uit het gebruik van onze diensten. In geen geval zal onze totale aansprakelijkheid hoger zijn dan het door u betaalde bedrag, indien van toepassing, voor toegang tot onze inhoud of diensten."
+                },
+                {
+                    "title": "10. Beëindiging",
+                    "content": "Wij behouden ons het recht voor om uw toegang tot het platform op elk moment te beëindigen of op te schorten, met of zonder kennisgeving, om welke reden dan ook, inclusief een schending van deze voorwaarden."
+                },
+                {
+                    "title": "11. Wijzigingen van Voorwaarden",
+                    "content": "Wij kunnen deze Gebruiksvoorwaarden periodiek bijwerken. Eventuele wijzigingen worden gecommuniceerd via deze pagina of per e-mail indien van toepassing. Voortgezet gebruik van de dienst betekent acceptatie van de nieuwe voorwaarden."
+                },
+                {
+                    "title": "12. Toepasselijk Recht en Jurisdictie",
+                    "content": "Deze voorwaarden zijn onderworpen aan de wetten van Zweden en de Europese Unie. Eventuele geschillen worden opgelost in de Zweedse rechtbanken, tenzij anders vereist door lokale consumentenwetten."
+                }
+            ],
+            "updated": "Laatst bijgewerkt: 1 mei 2025"
+        },
+        "privacy": {
+            "title": "Privacybeleid",
+            "subtitle": "Wij hechten veel waarde aan uw privacy. Dit beleid legt uit hoe we uw gegevens verzamelen, verwerken en beschermen in overeenstemming met de AVG en de Zweedse wet.",
+            "content": [
+                {
+                    "title": "1. Gegevensbeheerder",
+                    "content": "Botanics & You is de gegevensbeheerder voor de persoonlijke gegevens die u verstrekt via onze website en diensten. U kunt contact met ons opnemen via privacy@botanicsandyou.com."
+                },
+                {
+                    "title": "2. Persoonlijke Gegevens die Wij Verzamelen",
+                    "content": "Wij verzamelen de volgende soorten persoonlijke gegevens: naam, e-mailadres, locatie (optioneel), IP-adres, workshopgeschiedenis en communicatievoorkeuren. Als u vrijwillig aanvullende gezondheidsinformatie verstrekt in het kader van een workshop, kan dit worden behandeld als bijzondere categoriegegevens onder de AVG."
+                },
+                {
+                    "title": "3. Doel van de Verwerking",
+                    "content": "Wij verwerken uw gegevens om onze diensten te leveren, accounts te beheren, bestelbevestigingen te verzenden, uw ervaring te personaliseren en te voldoen aan juridische verplichtingen. Wij gebruiken uw gegevens niet voor geautomatiseerde besluitvorming of profilering."
+                },
+                {
+                    "title": "4. Wettige Gronden voor Verwerking",
+                    "content": "Onze wettige gronden onder de AVG omvatten: uw toestemming, de uitvoering van een contract (bijvoorbeeld workshopregistratie), wettelijke verplichtingen (bijvoorbeeld facturering) en legitieme belangen (bijvoorbeeld platformverbetering)."
+                },
+                {
+                    "title": "5. Cookies en Tracking",
+                    "content": "Wij gebruiken cookies en vergelijkbare technologieën om uw gebruikerservaring te verbeteren, het verkeer bij te houden en voorkeuren te onthouden. Een cookie-consent banner wordt weergegeven bij de eerste bezoek, en u kunt uw voorkeuren altijd bijwerken."
+                },
+                {
+                    "title": "6. Delen van Uw Informatie",
+                    "content": "Wij verkopen uw persoonlijke gegevens niet. Wij kunnen deze delen met AVG-conforme serviceproviders voor taken zoals betaling verwerking, e-mailbezorging, analyse of hosting. Wij zorgen ervoor dat alle partners gegevensverwerkingsovereenkomsten ondertekenen."
+                },
+                {
+                    "title": "7. Internationale Overdrachten",
+                    "content": "Als gegevens buiten de EU/EER worden overgedragen, zorgen we ervoor dat passende waarborgen, zoals Standaard Contractuele Clausules of adequaatheidsbeslissingen, aanwezig zijn."
+                },
+                {
+                    "title": "8. Gegevensbewaring",
+                    "content": "Wij bewaren persoonlijke gegevens alleen zolang als nodig is voor de doeleinden die in dit beleid worden beschreven. Dit omvat boekhoudregelgeving, belastingwetgeving en klantenservicegeschiedenis, meestal tot 7 jaar."
+                },
+                {
+                    "title": "9. Uw Rechten",
+                    "content": "Onder de AVG hebt u het recht om toegang te krijgen tot, correctie van, verwijdering van of beperking van uw gegevens. U kunt ook bezwaar maken tegen verwerking, gegevensoverdracht aanvragen en uw toestemming op elk moment intrekken. U kunt contact opnemen met de Zweedse Autoriteit voor Privacybescherming (IMY) om klachten in te dienen."
+                },
+                {
+                    "title": "10. Gegevensbeveiliging",
+                    "content": "Wij nemen geschikte technische en organisatorische maatregelen om uw gegevens te beveiligen, inclusief versleuteling, toegangscontrole en routine-audits. Echter, geen enkele transmissiemethode via het internet is 100% veilig."
+                },
+                {
+                    "title": "11. Privacy van Kinderen",
+                    "content": "Onze diensten zijn niet gericht op individuen jonger dan 13 jaar. Wij verzamelen geen persoonlijke gegevens van kinderen zonder ouderlijke toestemming."
+                },
+                {
+                    "title": "12. Wijzigingen in Dit Beleid",
+                    "content": "Wij kunnen dit Privacybeleid op elk moment herzien. De nieuwste versie zal altijd beschikbaar zijn op deze pagina, en belangrijke wijzigingen worden via e-mail gecommuniceerd indien van toepassing."
+                },
+                {
+                    "title": "13. Contactgegevens",
+                    "content": "Als u vragen heeft over dit beleid of uw gegevens, neem dan contact met ons op via privacy@botanicsandyou.com of schrijf naar ons geregistreerde kantoor in Zweden."
+                }
+            ],
+            "updated": "Laatst bijgewerkt: 1 mei 2025"
+        },
+        "encyclopedia": {
+            "usedParts": "Gebruik",
+            "origin": "Herkomst",
+            "growth": "Groei",
+            "usedParts_ext": "Verspreiding & Herkomst",
+            "origin_ext": "Groeigedrag & Levensduur",
+            "growth_ext": "Gebruikte Delen & Oogstmoment",
+            "keyConstituents": "Inhoudsstoffen",
+            "applications": "Toepassingen",
+            "usage": "Gebruikswijzen",
+            "contraindications": "Contra-indicaties",
+            "anecdote": "Anekdote uit de Volksgeneeskunde",
+            "recommendations": "Aanbevolen",
+
+            "recipes": "Recepten",
+            "dryness": "Droog, halfdroog of niet-drogend?",
+            "suitableForSkinTypes": "Geschikt voor huidtypes",
+            "storageAndShelfLife": "Bewaar- en houdbaarheid",
+            "fattyAcidProfile": "Vetzurenprofiel",
+            "skinBenefits": "Huidvoordelen",
+            "ecologicalFootprint": "Ecological Footprint",
+            "safety": "Veiligheidswaarschuwingen",
+            "oilCombinations": "Combinaties met andere oliën",
+            "related": "Related",
+
+            "character": "Karakteristiek",
+            "constituents": "Belangrijkste Inhoudsstoffen",
+            "properties": "Eigenschappen",
+            "healthBenefits": "Gezondheidsvoordelen/Geneeskracht",
+            "dosage": "Dosering",
+            "sustainability": "Ecologische voetafdruk",
+
+            "titles": {
+                "oils": "Essentiële Oliën",
+                "plants": "Planten",
+                "basic_oils": "Basis Oliën"
+            },
+            "sorting": {
+                "asc": "Sorteer: A-Z",
+                "desc": "Sorteer: Z-A"
+            },
+            "premium": "Premium",
+            "free": "Gratis",
+            "search": "Zoeken op naam of latijnse naam...",
+            "no_results": "We konden helaas geen gerelateerde artikelen vinden."
+        }
+    }
+}

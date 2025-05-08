@@ -1,0 +1,532 @@
+{
+    "translations": [
+        {
+            "la": "Vicia sepium",
+            "sv": "Buskvicker",
+            "en": "Bush Vetch",
+            "nl": "Boswikke"
+        },
+        {
+            "la": "Equisetum arvense",
+            "sv": "Åkerfräken",
+            "en": "Field Horsetail",
+            "nl": "Akkerpaardenstaart"
+        },
+        {
+            "la": "Ulmus glabra",
+            "sv": "Skogsal",
+            "en": "Wych Elm",
+            "nl": "Weerschijniep"
+        },
+        {
+            "la": "Sonchus oleraceus",
+            "sv": "Kålmaskros",
+            "en": "Common Sowthistle",
+            "nl": "Gewone melganzevoet"
+        },
+        {
+            "la": "Prunus spinosa",
+            "sv": "Slån",
+            "en": "Blackthorn",
+            "nl": "Sleedoorn"
+        },
+        {
+            "la": "Urtica dioica",
+            "sv": "Brännässla",
+            "en": "Stinging Nettle",
+            "nl": "Grote brandnetel"
+        },
+        {
+            "la": "Acorus calamus",
+            "sv": "Calsamus",
+            "en": "Sweet Flag",
+            "nl": "Kalmoes"
+        },
+        {
+            "la": "Symphytum officinale",
+            "sv": "Kolle",
+            "en": "Comfrey",
+            "nl": "Smeerwortel"
+        },
+        {
+            "la": "Myrica gale",
+            "sv": "Ormris",
+            "en": "Bog Myrtle",
+            "nl": "Gagel"
+        },
+        {
+            "la": "Usnea",
+            "sv": "Skägglav",
+            "en": "Beard Lichen",
+            "nl": "Baardmos"
+        },
+        {
+            "la": "Allium sativum",
+            "sv": "Vitlök",
+            "en": "Garlic",
+            "nl": "Knoflook"
+        },
+        {
+            "la": "Hippophae rhamnoides",
+            "sv": "Havtorn",
+            "en": "Sea Buckthorn",
+            "nl": "Duindoorn"
+        },
+        {
+            "la": "Rosmarinus officinalis",
+            "sv": "Rosmarin",
+            "en": "Rosemary",
+            "nl": "Rozemarijn"
+        },
+        {
+            "la": "Cichorium intybus",
+            "sv": "Fransk cikoria",
+            "en": "Chicory",
+            "nl": "Cichorei"
+        },
+        {
+            "la": "Hylotelephium telephium",
+            "sv": "Famurlavendel",
+            "en": "Orpine",
+            "nl": "Vetkruid"
+        },
+        {
+            "la": "Papaver rhoeas",
+            "sv": "Vallmo",
+            "en": "Corn Poppy",
+            "nl": "Klaproos"
+        },
+        {
+            "la": "Campanula rapunculus",
+            "sv": "Klockruta",
+            "en": "Rampion Bellflower",
+            "nl": "Raponsklokje"
+        },
+        {
+            "la": "Carum carvi",
+            "sv": "Kummin",
+            "en": "Caraway",
+            "nl": "Karwij"
+        },
+        {
+            "la": "Cardamine pratensis",
+            "sv": "Ängsbräsma",
+            "en": "Cuckooflower",
+            "nl": "Pinksterbloem"
+        },
+        {
+            "la": "Viola odorata",
+            "sv": "Doftviol",
+            "en": "Sweet Violet",
+            "nl": "Geurende viooltje"
+        },
+        { "la": "Betula", "sv": "Björk", "en": "Birch", "nl": "Berk" },
+        {
+            "la": "Origanum majorana",
+            "sv": "Majoran",
+            "en": "Marjoram",
+            "nl": "Marjolein"
+        },
+        {
+            "la": "Acer platanoides",
+            "sv": "Skogslönn",
+            "en": "Norway Maple",
+            "nl": "Noorse esdoorn"
+        },
+        {
+            "la": "Melissa officinalis",
+            "sv": "Citronmeliss",
+            "en": "Lemon Balm",
+            "nl": "Citroengras"
+        },
+        {
+            "la": "Anthoxanthum odoratum",
+            "sv": "Vaniljgräs",
+            "en": "Sweet Vernal Grass",
+            "nl": "Liefdegras"
+        },
+        {
+            "la": "Quercus robur",
+            "sv": "Ek",
+            "en": "English Oak",
+            "nl": "Zomereik"
+        },
+        {
+            "la": "Aloe vera",
+            "sv": "Aloe vera",
+            "en": "Aloe Vera",
+            "nl": "Aloë Vera"
+        },
+        { "la": "Tilia spp.", "sv": "Lind", "en": "Linden", "nl": "Linde" },
+        {
+            "la": "Tussilago farfara",
+            "sv": "Hästhov",
+            "en": "Coltsfoot",
+            "nl": "Kleine hoefblad"
+        },
+        {
+            "la": "Rubus fruticosus",
+            "sv": "Björnbär",
+            "en": "Blackberry",
+            "nl": "Braam"
+        },
+        {
+            "la": "Allium ursinum",
+            "sv": "Ramslök",
+            "en": "Ramsons",
+            "nl": "Daslook"
+        },
+        {
+            "la": "Chenopodium album",
+            "sv": "Vitschavdel",
+            "en": "Lamb's Quarters",
+            "nl": "Melganzevoet"
+        },
+        {
+            "la": "Calendula officinalis",
+            "sv": "Ringblomma",
+            "en": "Pot Marigold",
+            "nl": "Goudsbloem"
+        },
+        {
+            "la": "Picea abies",
+            "sv": "Gran",
+            "en": "Norway Spruce",
+            "nl": "Fijnspar"
+        },
+        { "la": "Rosa spp.", "sv": "Ros", "en": "Rose", "nl": "Roos" },
+        {
+            "la": "Arnica montana",
+            "sv": "Bergsveronika",
+            "en": "Arnica",
+            "nl": "Arnica"
+        },
+        {
+            "la": "Rubus saxatilis",
+            "sv": "Stenbär",
+            "en": "Stone Bramble",
+            "nl": "Steenbraam"
+        },
+        {
+            "la": "Ocimum basilicum",
+            "sv": "Basilika",
+            "en": "Basil",
+            "nl": "Basilicum"
+        },
+        {
+            "la": "Rubus idaeus",
+            "sv": "Hallon",
+            "en": "Raspberry",
+            "nl": "Framboos"
+        },
+        {
+            "la": "Cirsium arvense",
+            "sv": "Åkertistel",
+            "en": "Creeping Thistle",
+            "nl": "Akkerdistel"
+        },
+        {
+            "la": "Verbascum thapsus",
+            "sv": "Kungsljus",
+            "en": "Great Mullein",
+            "nl": "Toorts"
+        },
+        {
+            "la": "Tropaeolum majus",
+            "sv": "Krasse",
+            "en": "Nasturtium",
+            "nl": "Oost-Indische kers"
+        },
+        {
+            "la": "Zingiber officinale",
+            "sv": "Ingefära",
+            "en": "Ginger",
+            "nl": "Gember"
+        },
+        {
+            "la": "Rubus arcticus",
+            "sv": "Hjortron",
+            "en": "Arctic Raspberry",
+            "nl": "Arctische framboos"
+        },
+        {
+            "la": "Lavandula angustifolia",
+            "sv": "Lavendel",
+            "en": "Lavender",
+            "nl": "Lavendel"
+        },
+        { "la": "Pinus spp.", "sv": "Tall", "en": "Pine", "nl": "Pinus" },
+        {
+            "la": "Salvia officinalis",
+            "sv": "Salvia",
+            "en": "Sage",
+            "nl": "Salie"
+        },
+        {
+            "la": "Taraxacum officinale",
+            "sv": "Maskros",
+            "en": "Dandelion",
+            "nl": "Paardenbloem"
+        },
+        {
+            "la": "Juniperus communis",
+            "sv": "En",
+            "en": "Common Juniper",
+            "nl": "Geneverbes"
+        },
+        {
+            "la": "Typha latifolia",
+            "sv": "Gullpuding",
+            "en": "Common Cattail",
+            "nl": "Lisdodde"
+        },
+        {
+            "la": "Syzygium aromaticum",
+            "sv": "Kryddnejlika",
+            "en": "Clove",
+            "nl": "Kruidnagel"
+        },
+        {
+            "la": "Fragaria vesca",
+            "sv": "Smultron",
+            "en": "Wild Strawberry",
+            "nl": "Bosbessen aardbei"
+        },
+        {
+            "la": "Solidago virgaurea",
+            "sv": "Gulvial",
+            "en": "European Goldenrod",
+            "nl": "Guldenroede"
+        },
+        {
+            "la": "Capsella bursa-pastoris",
+            "sv": "Fårört",
+            "en": "Shepherd's Purse",
+            "nl": "Zebraardbei"
+        },
+        {
+            "la": "Origanum vulgare",
+            "sv": "Oregano",
+            "en": "Oregano",
+            "nl": "Oregano"
+        },
+        {
+            "la": "Filipendula ulmaria",
+            "sv": "Mjölkört",
+            "en": "Meadowsweet",
+            "nl": "Moerasspirea"
+        },
+        {
+            "la": "Polypodium vulgare",
+            "sv": "Stensöta",
+            "en": "Common Polypody",
+            "nl": "Heggenrank"
+        },
+        {
+            "la": "Hibiscus spp.",
+            "sv": "Hibiskus",
+            "en": "Hibiscus",
+            "nl": "Hibiscus"
+        },
+        {
+            "la": "Allium schoenoprasum",
+            "sv": "Gräslök",
+            "en": "Chives",
+            "nl": "Bieslook"
+        },
+        {
+            "la": "Artemisia vulgaris",
+            "sv": "Gråbo",
+            "en": "Mugwort",
+            "nl": "Bijvoet"
+        },
+        {
+            "la": "Trifolium pratense",
+            "sv": "Rödklöver",
+            "en": "Red Clover",
+            "nl": "Rode klaver"
+        },
+        {
+            "la": "Vaccinium myrtillus",
+            "sv": "Blåbär",
+            "en": "Bilberry",
+            "nl": "Bosbes"
+        },
+        {
+            "la": "Papaver somniferum",
+            "sv": "Opiumvallmo",
+            "en": "Opium Poppy",
+            "nl": "Papaver"
+        },
+        {
+            "la": "Anethum graveolens",
+            "sv": "Dill",
+            "en": "Dill",
+            "nl": "Dille"
+        },
+        {
+            "la": "Anthriscus cerefolium",
+            "sv": "Kruskärvel",
+            "en": "Chervil",
+            "nl": "Kervel"
+        },
+        {
+            "la": "Centaurea cyanus",
+            "sv": "Blåklint",
+            "en": "Cornflower",
+            "nl": "Korenbloem"
+        },
+        {
+            "la": "Tragopogon pratensis",
+            "sv": "Bergull",
+            "en": "Goat's Beard",
+            "nl": "Koejichtee"
+        },
+        {
+            "la": "Petroselinum crispum var. neapolitanum",
+            "sv": "Krusk parsley",
+            "en": "Curly Parsley",
+            "nl": "Krulpeterselie"
+        },
+        {
+            "la": "Galium aparine",
+            "sv": "Klängruda",
+            "en": "Cleavers",
+            "nl": "Klauwieren"
+        },
+        {
+            "la": "Malva sylvestris",
+            "sv": "Skogssläkt",
+            "en": "Common Mallow",
+            "nl": "Wilde kaasjeskruid"
+        },
+        {
+            "la": "Cochlearia officinalis",
+            "sv": "Skedblad",
+            "en": "Spoonwort",
+            "nl": "Eskru zonder suf"
+        },
+        { "la": "Mentha spp.", "sv": "Mynta", "en": "Mint", "nl": "Munt" },
+        {
+            "la": "Bellis perennis",
+            "sv": "Tusensköna",
+            "en": "Common Daisy",
+            "nl": "Madeliefje"
+        },
+        {
+            "la": "Alliaria officinalis",
+            "sv": "Ramslök",
+            "en": "Garlic Mustard",
+            "nl": "Look-zuring"
+        },
+        {
+            "la": "Salicornia europaea",
+            "sv": "Glassört",
+            "en": "Glasswort",
+            "nl": "Lamsoor"
+        },
+        {
+            "la": "Sorbus aucuparia",
+            "sv": "Rönn",
+            "en": "Rowan",
+            "nl": "Lijsterbes"
+        },
+        {
+            "la": "Angelica archangelica",
+            "sv": "Änglakälla",
+            "en": "Angelica",
+            "nl": "Wormhout"
+        },
+        {
+            "la": "Barbarea vulgaris",
+            "sv": "Vattenkrasse",
+            "en": "Wintercress",
+            "nl": "Spruitkool"
+        },
+        {
+            "la": "Glechoma hederacea",
+            "sv": "Bäckört",
+            "en": "Ground Ivy",
+            "nl": "Kruipend zenegroen"
+        },
+        {
+            "la": "Vaccinium microcarpum",
+            "sv": "Hjortron",
+            "en": "Bog Cranberry",
+            "nl": "Rode veenbes"
+        },
+        {
+            "la": "Silybum marianum",
+            "sv": "Mjölktistel",
+            "en": "Milk Thistle",
+            "nl": "Mariadistel"
+        },
+        {
+            "la": "Matricaria discoidea",
+            "sv": "Gulkamomill",
+            "en": "Pineappleweed",
+            "nl": "Ananas kamille"
+        },
+        {
+            "la": "Echinacea purpurea",
+            "sv": "Röd solhatt",
+            "en": "Purple Coneflower",
+            "nl": "Echinacea"
+        },
+        { "la": "Humulus lupulus", "sv": "Humle", "en": "Hops", "nl": "Hop" },
+        {
+            "la": "Polygonum aviculare",
+            "sv": "Markrölleka",
+            "en": "Knotgrass",
+            "nl": "Varkensgras"
+        },
+        {
+            "la": "Artemisia absinthium",
+            "sv": "Malört",
+            "en": "Wormwood",
+            "nl": "Absintalsem"
+        },
+        {
+            "la": "Hypericum perforatum",
+            "sv": "Johannesört",
+            "en": "St John's Wort",
+            "nl": "Sint-janskruid"
+        },
+        {
+            "la": "Achillea millefolium",
+            "sv": "Rölleka",
+            "en": "Yarrow",
+            "nl": "Duizendblad"
+        },
+        {
+            "la": "Matricaria chamomilla",
+            "sv": "Kamomill",
+            "en": "Chamomile",
+            "nl": "Kamille"
+        },
+        {
+            "la": "Arctium lappa",
+            "sv": "Kardborre",
+            "en": "Burdock",
+            "nl": "Kleine klis"
+        },
+        {
+            "la": "Empetrum nigrum",
+            "sv": "Kråkbär",
+            "en": "Crowberry",
+            "nl": "Zwarte bessen"
+        },
+        {
+            "la": "Viola tricolor",
+            "sv": "Trefärgad viol",
+            "en": "Wild Pansy",
+            "nl": "Driekleurig viooltje"
+        },
+        {
+            "la": "Bunias orientalis",
+            "sv": "Ostindisk rova",
+            "en": "Turkish Rocket",
+            "nl": "Oosterse raket"
+        }
+    ]
+}

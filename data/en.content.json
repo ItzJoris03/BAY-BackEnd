@@ -1,0 +1,244 @@
+{
+    "_COMMENT": "This file contains all data that exists on the website. Change only if you know what you are doing.",
+    "config": {
+        "lang": "en"
+    },
+    "data": {
+        "banner": {
+            "title": "The ==magic== of plants and herbs.",
+            "subtitle": "Give mother nature a chance with less ~~distrubuted products~~ but __nature__!",
+            "img": {
+                "src": "https://images.unsplash.com/photo-1543459176-4426b37223ba?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                "alt": "Natural background image"
+            },
+            "button": {
+                "name": "Check out how",
+                "to": ""
+            }
+        },
+        "about_short": {
+            "title": "Welcome to my world!",
+            "content": [
+                "**Are you ready to dive into the adventure of herbs and nature?** This is where my passion for nature and herbalism comes to life, and I can't wait to take you on this journey of discovery!",
+                "// Annika Wessels, founder of Botanics & You."
+            ]
+        },
+        "topics": {
+            "title": "Discover More"
+        },
+        "featured": {
+            "title": "Featured Articles",
+            "button": {
+                "name": "Read more"
+            }
+        },
+        "newsletter_signup": {
+            "title": "Sign up for our newsletter",
+            "content": "Receive free recipes, tips, and updates about herbs!",
+            "form": {
+                "email": "Enter your email",
+                "submit": "Subscribe"
+            },
+            "img": {
+                "src": "https://cdn.pixabay.com/photo/2020/12/17/14/07/leaves-5839550_960_720.jpg",
+                "alt": "Just a wallpaper"
+            }
+        },
+        "workshop_teaser": {
+            "title": "Workshops & Courses",
+            "content": "New workshops on herbs and natural care are starting soon!",
+            "button": {
+                "name": "More Information",
+                "to": "/workshops"
+            }
+        },
+        "terms": {
+            "title": "Terms of Service",
+            "subtitle": "These terms govern your use of our services. Please read them carefully before using our website.",
+            "content": [
+                {
+                    "title": "1. Acceptance of Terms",
+                    "content": "By accessing or using Botanics & You, you agree to be legally bound by these Terms of Service and our Privacy Policy. If you do not agree to these terms, you must not use our website or services."
+                },
+                {
+                    "title": "2. Eligibility",
+                    "content": "Our services are intended for individuals who are 18 years or older. By using the platform, you confirm that you are at least 18 years old. If you are under 18, you may use the services only with the involvement of a parent or guardian."
+                },
+                {
+                    "title": "3. Services Provided",
+                    "content": "We provide digital content focused on herbal wellness, including a recipe wiki, articles, and online/offline workshops. All materials are for educational purposes only and are not intended to diagnose, treat, cure, or prevent any disease. You are advised to consult a healthcare professional before applying any information."
+                },
+                {
+                    "title": "4. User Accounts",
+                    "content": "You may be required to create an account to access certain features. You are responsible for maintaining the confidentiality of your account credentials and agree to notify us immediately of any unauthorized use."
+                },
+                {
+                    "title": "5. Workshop Registration and Payment",
+                    "content": "Workshops require advance registration and payment via supported third-party providers. By registering, you agree to the specific terms outlined at the time of booking. Refunds are only granted if cancellations are made at least 7 days prior to the event unless otherwise specified."
+                },
+                {
+                    "title": "6. Content Ownership and Intellectual Property",
+                    "content": "All content, including text, graphics, videos, and workshop materials, is the property of Botanics & You or its licensors. You may not copy, distribute, or use our content without prior written permission. User-submitted content remains your property but grants us a license to display it on the platform."
+                },
+                {
+                    "title": "7. Acceptable Use Policy",
+                    "content": "You agree not to use the service in any way that is unlawful, misleading, abusive, harassing, defamatory, or otherwise objectionable. We reserve the right to suspend or terminate access if your behavior is deemed inappropriate or violates these terms."
+                },
+                {
+                    "title": "8. Disclaimers",
+                    "content": "All services are provided 'as is' and 'as available.' While we strive for accuracy, we do not warrant that the information is complete or error-free. Herbal practices can affect individuals differently, and any application is at your own risk."
+                },
+                {
+                    "title": "9. Limitation of Liability",
+                    "content": "To the maximum extent permitted by law, Botanics & You shall not be liable for any indirect, incidental, or consequential damages arising from the use of our services. In no event shall our total liability exceed the amount paid by you, if any, for accessing our content or services."
+                },
+                {
+                    "title": "10. Termination",
+                    "content": "We reserve the right to terminate or suspend your access to the platform at any time, with or without notice, for any reason, including a violation of these terms."
+                },
+                {
+                    "title": "11. Modifications to Terms",
+                    "content": "We may update these Terms of Service periodically. Any changes will be communicated via this page or by email if applicable. Continued use of the service constitutes acceptance of the new terms."
+                },
+                {
+                    "title": "12. Governing Law and Jurisdiction",
+                    "content": "These terms are governed by the laws of Sweden and the European Union. Any disputes will be resolved in the Swedish courts unless required otherwise by local consumer laws."
+                }
+            ],
+            "updated": "Last updated: May 1, 2025"
+        },
+        "privacy": {
+            "title": "Privacy Policy",
+            "subtitle": "We value your privacy. This policy explains how we collect, process, and protect your data in compliance with GDPR and Swedish law.",
+            "content": [
+                {
+                    "title": "1. Data Controller",
+                    "content": "Botanics & You is the data controller for the personal data you provide through our website and services. You can contact us at privacy@botanicsandyou.com."
+                },
+                {
+                    "title": "2. Personal Data We Collect",
+                    "content": "We collect the following types of personal data: name, email address, location (optional), IP address, workshop history, and communication preferences. If you voluntarily provide additional health-related information in the context of a workshop, this may be treated as special category data under GDPR."
+                },
+                {
+                    "title": "3. Purpose of Processing",
+                    "content": "We process your data to deliver our services, manage accounts, send order confirmations, personalize your experience, and meet legal obligations. We do not use your data for automated decision-making or profiling."
+                },
+                {
+                    "title": "4. Legal Basis for Processing",
+                    "content": "Our legal bases under GDPR include: your consent, performance of a contract (e.g., workshop registration), legal obligations (e.g., invoicing), and legitimate interests (e.g., platform improvement)."
+                },
+                {
+                    "title": "5. Cookies and Tracking",
+                    "content": "We use cookies and similar technologies to enhance your user experience, track traffic, and remember preferences. A cookie consent banner is displayed on first visit, and you can update preferences anytime."
+                },
+                {
+                    "title": "6. Sharing Your Information",
+                    "content": "We do not sell your personal data. We may share it with GDPR-compliant service providers for tasks like payment processing, email delivery, analytics, or hosting. We ensure all partners sign data processing agreements."
+                },
+                {
+                    "title": "7. International Transfers",
+                    "content": "If data is transferred outside the EU/EEA, we ensure appropriate safeguards such as Standard Contractual Clauses or adequacy decisions are in place."
+                },
+                {
+                    "title": "8. Data Retention",
+                    "content": "We retain personal data only as long as necessary for the purposes described in this policy. This includes accounting regulations, tax law, and customer service history, typically up to 7 years."
+                },
+                {
+                    "title": "9. Your Rights",
+                    "content": "Under GDPR, you have the right to access, correct, delete, or restrict your data. You may also object to processing, request data portability, and withdraw consent at any time. You can contact the Swedish Authority for Privacy Protection (IMY) to file complaints."
+                },
+                {
+                    "title": "10. Data Security",
+                    "content": "We take appropriate technical and organizational measures to secure your data, including encryption, access controls, and routine audits. However, no method of transmission over the Internet is 100% secure."
+                },
+                {
+                    "title": "11. Children's Privacy",
+                    "content": "Our services are not directed to individuals under the age of 13. We do not knowingly collect personal data from children without parental consent."
+                },
+                {
+                    "title": "12. Updates to This Policy",
+                    "content": "We may revise this Privacy Policy at any time. The latest version will always be available on this page, and major changes will be communicated via email if appropriate."
+                },
+                {
+                    "title": "13. Contact Information",
+                    "content": "If you have questions about this policy or your data, contact us at privacy@botanicsandyou.com or write to our registered office in Sweden."
+                }
+            ],
+            "updated": "Last updated: May 1, 2025"
+        },
+        "encyclopedia": {
+            "usedParts": "Used Part",
+            "origin": "Origin",
+            "growth": "Growth",
+            "usedParts_ext": "Distribution & Origin",
+            "origin_ext": "Growth Behaviour & Lifespan",
+            "growth_ext": "Used Parts & Harvest Time",
+            "keyConstituents": "Key Constituents",
+            "applications": "Applications",
+            "usage": "Methods of Use",
+            "contraindications": "Contraindications",
+            "anecdote": "Anecdote from Folk Medicine",
+            "recommendations": "Recommendation",
+            "relatedPlants": "Related",
+
+            "recipes": "Recipes",
+            "dryness": "Dryness",
+            "suitableForSkinTypes": "Suitable For Skin Types",
+            "storageAndShelfLife": "Storage And Shelf Life",
+            "fattyAcidProfile": "Fatty Acid Profile",
+            "skinBenefits": "Skin Benefits",
+            "ecologicalFootprint": "Ecological Footprint",
+            "safety": "Safety",
+            "oilCombinations": "Oil Combinations",
+            "related": "Related",
+
+            "character": "Character",
+            "constituents": "Constituents",
+            "properties": "Properties",
+            "healthBenefits": "Health Benefits",
+            "dosage": "Dosage",
+            "sustainability": "Sustainability",
+
+            "titles": {
+                "oils": "Essential Oils",
+                "plants": "Plants",
+                "basic_oils": "Basic Oils"
+            },
+            "sorting": {
+                "asc": "Sorting: A-Z",
+                "desc": "Sorting: Z-A"
+            },
+            "premium": "Premium",
+            "free": "Free",
+            "search": "Search by name or latin name...",
+            "no_results": "Unfortunately we couldn't find any matching articles."
+        }
+    },
+    "default": {
+        "open": "Open",
+        "closed": "Gesloten",
+        "next_location": "Volgende Locatie",
+        "explore": "Ontdek",
+        "legal": "Juridisch",
+        "location": "Locatie",
+        "call_us": "Bel Ons",
+        "email_us": "Email Ons",
+        "contact_us": "Neem Contact Op",
+        "email": "Email Adres",
+        "subject": "Onderwerp",
+        "name": "Naam",
+        "message": "Bericht",
+        "send_message": "Verstuur bericht"
+    },
+    "forms": {
+        "required": "{id} is verplicht.",
+        "wrong_format": "{id} moet het volgende formaat hebben: '{format}'",
+        "no_text": "{id} lijkt op de een of andere manier gemanipuleerd te zijn. Gelieve alleen tekst op te geven.",
+        "contact_turned_off": "We kunnen geen berichten verzenden.",
+        "contact_turned_off_extra": "We werken hieraan, dus in de tussentijd hebben we dit uitgeschakeld.",
+        "contact_error_title": "Fout bij het verzenden van het bericht: {status}",
+        "contact_error_text": "We konden het bericht niet verzenden. Probeer het later opnieuw.",
+        "contact_success_title": "Bericht is verzonden",
+        "contact_success_text": "We hebben het bericht verzonden en zullen zo snel mogelijk met u contact zoeken."
+    }
+}
