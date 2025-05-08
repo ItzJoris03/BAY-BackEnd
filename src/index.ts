@@ -4,9 +4,9 @@ import mongoose from 'mongoose';
 import cors from 'cors';
 import bodyParser from 'body-parser';
 
-// import routes from './routes/allRoutes';
-import contentRoutes from './routes/contentRoutes';
-import encyclopediaRoutes from './routes/encyclopedia';
+import routes from './routes/allRoutes';
+// import contentRoutes from './routes/contentRoutes';
+// import encyclopediaRoutes from './routes/encyclopedia';
 
 dotenv.config();
 
@@ -14,7 +14,7 @@ const app: Application = express();
 const PORT = process.env.PORT || 5000;
 
 app.use((req, res, next) => {
-  console.log('testing');
+  console.log(req.url)
   next();
 })
 
@@ -26,7 +26,7 @@ app.use(express.json());
 const acceptedOrigins = process.env.ACCEPTED_URI?.split(',').map(origin => origin.trim()) || [];
 
 app.use(cors({
-  // origin: acceptedOrigins,
+  origin: acceptedOrigins,
   credentials: true,
 }));
 
@@ -35,9 +35,9 @@ app.get('/', (req: Request, res: Response) => {
   res.send('Hello from the backend!');
 });
 
-// app.use('/api', routes);
-app.use('/api/content', contentRoutes);
-app.use('/api/encyclopedia', encyclopediaRoutes);
+// app.use('/', routes);
+// app.use('/content', contentRoutes);
+// app.use('/encyclopedia', encyclopediaRoutes);
 
 // Connect to MongoDB and start the server
 const startServer = async () => {
