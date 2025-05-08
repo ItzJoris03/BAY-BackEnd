@@ -16,8 +16,11 @@ const PORT = process.env.PORT || 5000;
 app.use(bodyParser.json({ limit: '10mb' })); // Increase the limit to 10mb
 app.use(bodyParser.urlencoded({ extended: true, limit: '10mb' }));
 app.use(express.json());
+
+const acceptedOrigins = process.env.ACCEPTED_URI?.split(',').map(origin => origin.trim()) || [];
+
 app.use(cors({
-  origin: 'http://localhost:5173', // Frontend URL
+  origin: acceptedOrigins,
   credentials: true,
 }));
 
