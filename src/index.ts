@@ -3,9 +3,8 @@ import dotenv from 'dotenv';
 import mongoose from 'mongoose';
 import cors from 'cors';
 import bodyParser from 'body-parser';
-// import userRoutes from './routes/userRoutes';
-import contentRoutes from './routes/contentRoutes';
-import encyclopediaRoutes from './routes/encyclopedia';
+
+import routes from './routes/allRoutes';
 
 dotenv.config();
 
@@ -29,13 +28,8 @@ app.get('/', (req: Request, res: Response) => {
   res.send('Hello from the backend!');
 });
 
-// app.use('/api', userRoutes);
-app.use('/api', contentRoutes);
+app.use('/api', routes);
 
-
-// app.use('/plants', plantRoutes);
-
-app.use('/encyclopedia', encyclopediaRoutes)
 
 // Connect to MongoDB and start the server
 const startServer = async () => {

@@ -1,4 +1,3 @@
-// src/routes/contentRoute.ts
 import { Router, Request, Response } from "express";
 import path from "path";
 import fs from "fs/promises";
@@ -7,7 +6,8 @@ const router = Router();
 
 type LangCode = "com" | "nl" | "sv";
 
-router.get('/content', async (req: Request, res: Response) => {
+router.get('/', async (req: Request, res: Response) => {
+    console.log('test')
     const lang = (req.query.lang as LangCode) || "com";
     const componentsQuery = (req.query.components as string) || "";
 
