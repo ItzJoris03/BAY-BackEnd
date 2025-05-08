@@ -28,7 +28,7 @@ app.get('/', (req: Request, res: Response) => {
   res.send('Hello from the backend!');
 });
 
-app.use('/api', routes);
+app.use(routes);
 
 
 // Connect to MongoDB and start the server
