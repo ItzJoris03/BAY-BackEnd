@@ -11,11 +11,6 @@ dotenv.config();
 const app: Application = express();
 const PORT = process.env.PORT || 5000;
 
-app.use((req, res, next) => {
-  console.log(req.url)
-  next();
-})
-
 // Middleware
 app.use(bodyParser.json({ limit: '10mb' })); // Increase the limit to 10mb
 app.use(bodyParser.urlencoded({ extended: true, limit: '10mb' }));

@@ -88,13 +88,7 @@ router.get('/:category/:id', async (req, res) => {
                 };
 
                 const sourceLang = getSourceLang() as Language;
-
-                // console.log(item.toObject());
-                // Extract values from the item object
-                // console.log("++++++++++++++++++++++++++++++++")
                 const sourceJson = extractValues(item.toObject(), sourceLang);
-
-                // console.log(sourceJson);
 
                 console.log(`[Translating]: Translating ${id}...`);
                 const translatedJson = await translateJson(sourceJson, language);
@@ -145,11 +139,39 @@ function transformData(input: any) {
     // Process the data array
     input.data.map((item: any) => {
         for (const key in item) {
-            output[key] = {
-                nl: item[key]
+            if (key == 'relatedPlants') {
+                output.related = item[key];
+            } else if (key == 'facts') {
+                output[key] = {
+                    usedParts: {
+                        nl: item[key].usedParts,
+                    },
+                    origin: {
+                        nl: item[key].origin,
+                    },
+                    growth: {
+                        nl: item[key].growth,
+                    },
+                }
+            } else if (key == 'article') {
+                output[key] = {
+                    applications: {
+                        nl: item[key].usedParts,
+                    },
+                    usage: {
+                        nl: item[key].origin,
+                    },
+                    contraindications: {
+                        nl: item[key].growth,
+                    },
+                }
+            } else {
+                output[key] = {
+                    nl: item[key]
+                }
             }
 
-            if (key == 'sustainability') {
+            if (key == 'sustainability' || key == 'anecdote') {
                 output[key] = {
                     nl: item[key].text
                 }
@@ -161,37 +183,44 @@ function transformData(input: any) {
 }
 
 // POST /import
-// router.post('/import', async (req, res) => {
-//     const items = req.body;
+router.post('/import/:category', async (req, res) => {
+    const { category } = req.params;
+    const items = req.body;
 
-//     if (!Array.isArray(items) || items.length === 0) {
-//         res.status(400).json({ error: 'No data provided.' });
-//     }
+    if (!Array.isArray(items) || items.length === 0) {
+        res.status(400).json({ error: 'No data provided.' });
+    }
 
-//     // Create a Set to track unique IDs
-//     const uniqueIds = new Set();
+    if (!Object.keys(modelMap).includes(category)) {
+        res.status(404).json({ message: `Category is invalid: ${Object.keys(modelMap).toString()}` });
+        return;
+    }
 
-//     // Filter out items with non-unique IDs and transform the data
-//     const formatted = items.filter((_item: any) => {
-//         if (_item.id && !uniqueIds.has(_item.id)) {
-//             uniqueIds.add(_item.id); // Add the ID to the Set
-//             return true; // Keep this item
-//         }
-//         return false; // Filter out this item
-//     }).map((_item: any) => transformData(_item));
+    // Create a Set to track unique IDs
+    const uniqueIds = new Set();
 
-//     try {
-//         await EssentialOil.deleteMany({});
-//         const results = await EssentialOil.insertMany(formatted, { ordered: false });
+    // Filter out items with non-unique IDs and transform the data
+    const formatted = items.filter((_item: any) => {
+        if (_item.id && !uniqueIds.has(_item.id)) {
+            uniqueIds.add(_item.id); // Add the ID to the Set
+            return true; // Keep this item
+        }
+        return false; // Filter out this item
+    }).map((_item: any) => transformData(_item));
 
-//         res.status(201).json({ success: true, inserted: results.length });
-//     } catch (err: any) {
-//         console.error(err);
-//         if (err.code === 11000) {
-//             res.status(409).json({ error: 'Duplicate entries detected.' });
-//         }
-//         res.status(500).json({ error: 'Something went wrong.' });
-//     }
-// });
+    try {
+        const Item = modelMap[category as keyof typeof modelMap];
+        await Item.deleteMany({});
+        const results = await Item.insertMany(formatted, { ordered: false });
+
+        res.status(201).json({ success: true, inserted: results.length });
+    } catch (err: any) {
+        console.error(err);
+        if (err.code === 11000) {
+            res.status(409).json({ error: 'Duplicate entries detected.' });
+        }
+        res.status(500).json({ error: 'Something went wrong.' });
+    }
+});
 
 export default router;
