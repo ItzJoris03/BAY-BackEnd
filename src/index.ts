@@ -36,8 +36,8 @@ app.get('/', (req: Request, res: Response) => {
 });
 
 // app.use('/api', routes);
-app.use('/content', contentRoutes);
-app.use('/encyclopedia', encyclopediaRoutes);
+app.use('/api/content', contentRoutes);
+app.use('/api/encyclopedia', encyclopediaRoutes);
 
 // Connect to MongoDB and start the server
 const startServer = async () => {
