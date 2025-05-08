@@ -142,28 +142,18 @@ function transformData(input: any) {
             if (key == 'relatedPlants') {
                 output.related = item[key];
             } else if (key == 'facts') {
-                output[key] = {
-                    usedParts: {
-                        nl: item[key].usedParts,
-                    },
-                    origin: {
-                        nl: item[key].origin,
-                    },
-                    growth: {
-                        nl: item[key].growth,
-                    },
+                for (const fact of item[key]) {
+                    const { label, value } = fact;
+
+                    output[label] = {
+                        nl: value
+                    }
                 }
             } else if (key == 'article') {
-                output[key] = {
-                    applications: {
-                        nl: item[key].usedParts,
-                    },
-                    usage: {
-                        nl: item[key].origin,
-                    },
-                    contraindications: {
-                        nl: item[key].growth,
-                    },
+                for (const subkey of item[key]) {
+                    output[subkey] = {
+                        nl: item[key][subkey]
+                    }
                 }
             } else {
                 output[key] = {
