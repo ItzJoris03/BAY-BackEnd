@@ -189,6 +189,7 @@ router.post('/import/:category', async (req, res) => {
 
     if (!Array.isArray(items) || items.length === 0) {
         res.status(400).json({ error: 'No data provided.' });
+        return;
     }
 
     if (!Object.keys(modelMap).includes(category)) {
@@ -213,7 +214,7 @@ router.post('/import/:category', async (req, res) => {
         await Item.deleteMany({});
         const results = await Item.insertMany(formatted, { ordered: false });
 
-        res.status(201).json({ success: true, inserted: results.length });
+        res.status(201).json({ success: true, inserted: results.length, formatted: formatted[0] });
     } catch (err: any) {
         console.error(err);
         if (err.code === 11000) {
