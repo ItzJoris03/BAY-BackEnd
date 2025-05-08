@@ -25,10 +25,10 @@ app.use(express.json());
 
 const acceptedOrigins = process.env.ACCEPTED_URI?.split(',').map(origin => origin.trim()) || [];
 
-// app.use(cors({
-//   origin: acceptedOrigins,
-//   credentials: true,
-// }));
+app.use(cors({
+  // origin: acceptedOrigins,
+  credentials: true,
+}));
 
 // Routes
 app.get('/', (req: Request, res: Response) => {
