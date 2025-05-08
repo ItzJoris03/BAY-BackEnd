@@ -145,7 +145,7 @@ function transformData(input: any) {
                 for (const fact of item[key]) {
                     const { label, value } = fact;
 
-                    output[label] = {
+                    output[key][label] = {
                         nl: value
                     }
                 }

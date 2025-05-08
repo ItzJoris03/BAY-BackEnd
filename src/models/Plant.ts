@@ -10,15 +10,6 @@ const FactsSchema = new mongoose.Schema(
     { _id: false }
 );
 
-const ArticleSchema = new mongoose.Schema(
-    {
-        applications: { type: TranslatedArraySchema, required: true },
-        usage: { type: TranslatedArraySchema, required: true },
-        contraindications: { type: TranslatedArraySchema, required: true }
-    },
-    { _id: false }
-);
-
 const RecommendationsSchema = new mongoose.Schema(
     {
         related: [{ type: String }],
@@ -35,7 +26,9 @@ const PlantSchema = new mongoose.Schema({
     description: { type: TranslatedTextSchema, required: true },
     keyConstituents: { type: TranslatedArraySchema, required: true },
     facts: { type: FactsSchema, required: true },
-    article: { type: ArticleSchema, required: true },
+    applications: { type: TranslatedArraySchema, required: true },
+    usage: { type: TranslatedArraySchema, required: true },
+    contraindications: { type: TranslatedArraySchema, required: true },
     anecdote: { type: TranslatedTextSchema, required: true },
     isPremium: { type: Boolean, default: false },
     recommendations: { type: RecommendationsSchema, default: {} }
